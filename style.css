@@ -52,7 +52,6 @@
 
     .produto{
         width: 100%;
-        background-color: #F2E8DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -139,4 +138,13 @@
         gap: 10px;
         font-size: 1rem;
     }
+
+    a{
+        text-decoration: none;
+    }
+
+    section .produto:nth-child(even){
+        background-color: #F2E8DC;
+    }
+
 }
