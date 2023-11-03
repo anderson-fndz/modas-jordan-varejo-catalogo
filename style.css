@@ -158,6 +158,7 @@
     #prev-button img,
     #next-button img {
         width: 100%;
+        padding: 2px;
     }
 
     #prev-button {
@@ -210,5 +211,5 @@
     .produto:nth-child(odd) .description p, .produto:nth-child(odd) .description h3{
         color: #fdf8f1;
     }
-
+    
 }

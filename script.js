@@ -50,3 +50,4 @@ buttonOpen.addEventListener("click", function(){
 buttonClose.addEventListener("click", function(){
     modal.style.display = 'none'
 })
+
