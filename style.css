@@ -49,7 +49,7 @@
     .menu {
         width: 60%;
         height: 100%;
-        background-color: #fff;
+        background-color: #F2E8DC;
         display: block;
         position: fixed;
         right: 0;
@@ -82,7 +82,7 @@
 
     section {
         width: 100%;
-        background-color: #fff;
+        background-color: #F2E8DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -202,8 +202,13 @@
         text-decoration: none;
     }
 
-    section .produto:nth-child(even) {
-        background-color: #F2E8DC;
+   
+    section .produto:nth-child(odd) {
+        background-color: #81022D;
+    }
+
+    .produto:nth-child(odd) .description p, .produto:nth-child(odd) .description h3{
+        color: #fdf8f1;
     }
 
 }
