@@ -105,7 +105,7 @@ html {
     }
 
     .section-title {
-        height: 8vh;
+        height: 18vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -117,17 +117,16 @@ html {
 
     .section-title h2 {
         width: 70%;
-        background-color: #81022D;
+        color: #81022D;
         padding: 1rem 0px;
         text-align: center;
-        font-size: 1.8rem;
-        border-radius: 1rem;
+        font-size: 3rem;
     }
 
     .section-title span {
         font-weight: 300;
         font-style: italic;
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
 
     .produto {
@@ -244,6 +243,13 @@ html {
         width: 100%;
         height: 5rem;
         background-color: #81022D;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box-header {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
