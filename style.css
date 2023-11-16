@@ -256,6 +256,10 @@ html {
         color: #F2E8DC;
     }
 
+    .box-header h2{
+        text-align: start;
+    }
+
     svg {
         fill: #F2E8DC;
     }
