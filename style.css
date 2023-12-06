@@ -37,6 +37,8 @@ html {
     }
 
     .box-header h1 {
+        width: 100%;
+        text-align: left;
         font-size: 3.5rem;
         justify-self: center;
         align-self: center;
@@ -206,6 +208,7 @@ html {
         color: #940032;
     }
 
+
     .button-whats {
         width: 100%;
         height: 3rem;
@@ -315,6 +318,11 @@ html {
         margin-bottom: 1rem;
     }
 
+    .box-header h1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
     /* ----------------------------------------------*/
 
     section {
@@ -419,6 +427,18 @@ html {
         text-align: start;
         font-size: 1.8rem;
         color: #940032;
+    }
+
+    .tamanhos{
+        padding: 10px 0px 20px 0px;
+    }
+
+    .tamanhos button{
+        background-color: #c9c9c9;
+        width: 30px;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid gray;
     }
 
     .button-whats {
