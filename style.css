@@ -245,7 +245,7 @@ html {
     header {
         width: 100%;
         height: 5rem;
-        background-color: #81022D;
+        background-color: #47003C;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -259,8 +259,8 @@ html {
         color: #F2E8DC;
     }
 
-    .box-header h2{
-        text-align: start;
+    .box-header h1 span{
+        color: #AA4D84;
     }
 
     svg {
@@ -333,16 +333,24 @@ html {
         align-items: center;
     }
 
-    .section-title {
-        height: 40px;
-        width: 95%;
+    .section-title{
+        background-color: #F2E8DC;
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
         display: flex;
-        justify-content: center;
         align-items: center;
-        background-color: #81022D;
-        margin: 20px 0px;
-        color: #fff;
-        font-size: 0.8rem;
+        justify-content: center;
+    }
+
+    .section-title div{
+        width: 95%;
+        height: 70%;
+        background-color: #47003C;
+        color: #F2E8DC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .section-title span {
@@ -385,7 +393,7 @@ html {
         width: 95%;
         height: 100%;
         object-fit: cover;
-        border: 2px solid #940032;
+        border: 2px solid #47003C;
     }
 
     .on {
@@ -462,7 +470,7 @@ html {
 
 
     section .produto:nth-child(odd) {
-        background-color: #81022D;
+        background-color: #47003C;
     }
 
     .produto:nth-child(odd) .description p,
